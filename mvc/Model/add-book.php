@@ -1,5 +1,7 @@
 <?php
-session_start();
+class AddBook{
+public function addBook() {
+#session_start();
 error_reporting(0);
 include('includes/config.php');
 if(strlen($_SESSION['alogin'])==0)
@@ -157,4 +159,4 @@ foreach($results as $result)
     <script src="assets/js/custom.js"></script>
 </body>
 </html>
-<?php } ?>
+<?php } return "Book Added";}} ?>

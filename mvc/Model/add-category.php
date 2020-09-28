@@ -1,4 +1,6 @@
 <?php
+class AddCategory{
+public function addcat() {
 session_start();
 error_reporting(0);
 include('includes/config.php');
@@ -112,4 +114,4 @@ Category Info
     <script src="assets/js/custom.js"></script>
 </body>
 </html>
-<?php } ?>
+<?php } return "Category Added";}} ?>

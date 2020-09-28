@@ -1,4 +1,6 @@
 <?php
+class EditCategory{
+public function editCategory(){
 session_start();
 error_reporting(0);
 include('includes/config.php');
@@ -132,4 +134,4 @@ foreach($results as $result)
     <script src="assets/js/custom.js"></script>
 </body>
 </html>
-<?php } ?>
+<?php } return "Updated Category"; }}?>
